@@ -10,7 +10,7 @@ Spring Cloud:
   - Spring Cloud Hystrix (Circuit Breaker)
   - Spring Cloud Feign (Declarative Rest Client)
   - Spring Cloud Bus (Configuration Changes Propagation)
-  - Spring Cloud Gateway (Reverse Proxy, Caching [falta], Resource Expansion [falta], Protocol Conversion [falta])
+  - Spring Cloud Gateway (Reverse Proxy, Caching [falta], Resource Expansion [falta], Protocol Translation [falta])
   - Spring Cloud Security (Falta)
   
 
