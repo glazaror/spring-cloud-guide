@@ -4,7 +4,7 @@ Proyecto ejemplo de spring cloud
 Spring Boot 2.x
 
 Spring Cloud:
-  - Spring Cloud Config (configuration management)
+  - Spring Cloud Config (Configuration Management)
   - Spring Cloud Eureka (Service Discovery)
   - Spring Cloud Ribbon (Client Load Balancing)
   - Spring Cloud Hystrix (Circuit Breaker)
