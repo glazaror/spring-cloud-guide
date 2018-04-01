@@ -1,0 +1,17 @@
+---
+# For simplicity, disable security when posting to bus/refresh:  
+management:
+  security:
+    enabled: false
+
+endpoints:
+  default:
+    web:
+      enabled: true
+#spring:
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+
