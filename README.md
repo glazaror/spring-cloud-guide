@@ -3,7 +3,7 @@ Proyecto ejemplo de spring cloud
 
 Spring Boot 2.x
 
-Spring Cloud:
+Spring Cloud 2.x:
   - Spring Cloud Config (Configuration Management)
   - Spring Cloud Eureka (Service Discovery)
   - Spring Cloud Ribbon (Client Load Balancing)
