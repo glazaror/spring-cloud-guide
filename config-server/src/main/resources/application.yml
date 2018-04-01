@@ -1,0 +1,37 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/glazaror/ConfigData
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+
+server:
+  port: 8001
+
+# For simplicity, disable security when posting to bus/refresh:
+management:
+  security:
+    enabled: false
+
+# disable beans endpoint
+# expose all endpoints:
+# a partir de spring boot 2.0 los actuator endpoints no son accesibles
+# para habilitarlos agregamos la siguiente configuracion
+# por ejemplo el endpoint /actuator/bus-refresh/
+# para usar spring cloud bus necesitamos de un protocolo de mensajeria
+# AMQP - en este ejemplo RabbitMQ org.springframework.cloud:spring-cloud-starter-bus-amqp
+# org.springframework.cloud:spring-cloud-bus:2.0.0.M7
+# si es que RabbitMQ se ejecuta desde un docker entonces iniciarlo
+# con de la siguiente manera: docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+management:
+  endpoints:
+    beans:
+      enabled: false
+    web:
+      exposure:
+        include: '*'
