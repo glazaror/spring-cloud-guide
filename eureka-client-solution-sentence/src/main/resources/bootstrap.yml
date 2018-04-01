@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: lab-4-sentence
+  cloud:
+    config:
+      uri: http://localhost:8001
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+#Default stream is http://localhost:8020/actuator/hystrix.stream
