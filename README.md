@@ -4,11 +4,11 @@ Proyecto ejemplo de spring cloud
 Spring Boot 2.x
 
 Spring Cloud:
-  - Spring Cloud Config
-  - Spring Cloud Eureka
-  - Spring Cloud Ribbon
-  - Spring Cloud Hystrix
-  - Spring Cloud Feign
-  - Spring Cloud Bus
-  - Spring Cloud Gateway (Basico)
+  - Spring Cloud Config (configuration management)
+  - Spring Cloud Eureka (Service Discovery)
+  - Spring Cloud Ribbon (Client Load Balancing)
+  - Spring Cloud Hystrix (Circuit Breaker)
+  - Spring Cloud Feign (Declarative Rest Client)
+  - Spring Cloud Bus (Configuration Changes Propagation)
+  - Spring Cloud Gateway (Reverse Proxy, Caching [falta], Resource Expansion [falta], Protocol Conversion [falta])
   - Spring Cloud Security (Falta)
