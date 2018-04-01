@@ -12,3 +12,6 @@ Spring Cloud:
   - Spring Cloud Bus (Configuration Changes Propagation)
   - Spring Cloud Gateway (Reverse Proxy, Caching [falta], Resource Expansion [falta], Protocol Conversion [falta])
   - Spring Cloud Security (Falta)
+  
+
+Configuración de Spring Cloud Gateway: https://dzone.com/articles/spring-tips-spring-cloud-gateway-video
