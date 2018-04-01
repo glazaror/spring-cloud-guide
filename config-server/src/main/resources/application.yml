@@ -35,3 +35,7 @@ management:
     web:
       exposure:
         include: '*'
+
+# Para refrescar los parametros de configuracion en los clientes que
+# tienen la anotacion @RefreshScope debemos ejecutar enviar un POST
+# al siguiente endpoint: /actuator/bus-refresh/
