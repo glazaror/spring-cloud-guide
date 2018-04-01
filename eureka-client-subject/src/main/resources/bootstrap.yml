@@ -1,6 +1,6 @@
 spring:
   application:
-    name: lab-4-subject
+    name: eureka-client-subject
   cloud:
     config:
       uri: http://localhost:8001

@@ -1,11 +1,11 @@
 package com.example.lab4sentence.dao;
 
 public interface WordDao {
-    static final String SUBJECT = "LAB-4-SUBJECT";
-    static final String VERB = "LAB-4-VERB";
-    static final String ARTICLE = "LAB-4-ARTICLE";
-    static final String ADJECTIVE = "LAB-4-ADJECTIVE";
-    static final String NOUN = "LAB-4-NOUN";
+    static final String SUBJECT = "eureka-client-subject";
+    static final String VERB = "eureka-client-verb";
+    static final String ARTICLE = "eureka-client-article";
+    static final String ADJECTIVE = "eureka-client-adjective";
+    static final String NOUN = "eureka-client-noun";
 
     String getWord();
 }

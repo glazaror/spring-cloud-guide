@@ -1,6 +1,6 @@
 spring:
   application:
-    name: lab-4-verb
+    name: eureka-client-verb
   cloud:
     config:
       uri: http://localhost:8001
